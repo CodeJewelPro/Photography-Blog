@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Styles.css">
+
+<title>Photography Blog</title>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li>
+
+<a href="#">Gallery</a>
+<ul>
+
+<li><a href="#">Nature</a></li>
+<li><a href="#">Portraits</a></li>
+<li><a href="#">Animals</a></li>
+
+</ul>
+</li>
+</ul>
+</nav>
+</header>
+
+<main class="grid-container">
+<section class="intro grid-item">
+
+<h1>Welcome to My Photography Blog</h1>
+<p>Discover stunning photos and stories behind them.</p>
+<img src="Images/10161350_MotionElements_lake-and-wild-rose_converted_759808-480x270-3s-q2.gif" alt="welcome rose">
+</section>
+
+<section class="gallery grid-item">
+<h3>Photo Gallery</h3>
+
+<table>
+<tr>
+<th>Image</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td><img src= "Images/pexels-photo-2365465.jpeg"></td>
+<td>Lets set the scene.</td>
+</tr>
+
+<tr>
+<td><img src="Images/pexels-photo-3746256.jpeg"></td>
+<td>Grapes anyone?.</td>
+</tr>
+<tr>
+<td><img src="Images/pexels-photo-11760851.jpeg"></td>
+<td>Elphant in the wild.</td>
+</tr>
+</table>
+</section>
+
+<section class="forms grid-item">
+<h2>Submit Your Photo</h2>
+<form action="#" method="post">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="photo">Upload Photo:</label>
+<input type="file" id="photo" name="photo" required>
+<input type="submit" value="Submit">
+
+</form>
+</section>
+</main>
+</body>
+</html>
