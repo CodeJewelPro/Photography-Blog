@@ -20,4 +20,4 @@ CSS
 GitHub
 
 ## How to run 
-1. *Clone the repository*:'''bash git clone https://github.com/JewelCodePro/photography-blog.git 
+1. *Clone the repository*:'''bash git clone https://github.com/CodeJewelPro/photography-blog.git 
